@@ -1,0 +1,253 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+body{
+font-family: 'Balsamiq Sans', 'cursive';
+}
+
+.nav{
+background-color: rgb(51,51,51,255);
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 10px 20px ;
+
+}
+
+.nav-links{
+list-style: none;
+display: flex;
+align-items: center;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+.active{ 
+font-weight: bold;
+}
+
+.btn{
+margin-left: 90px;
+background-color: rgba(23,162,184,255);
+color: white;
+border: 3px solid black;
+padding: 2px 5px;
+box-shadow: 2px 2px 0px black;
+}
+
+.main{
+    margin: 30px 470px;
+    width: 50%;
+    display: flex;
+}
+
+
+.container{
+    background-color: rgba(255,255,255,255);
+    border: 3px solid rgba(204,204,204,255);
+
+}
+
+.bluestripe {
+    background-color: rgba(23,162,184,255);
+    height: 75px;
+}
+
+.bluestripe img{
+    margin: 30px 20px;
+}
+
+.about{
+margin: 30px 20px;
+}
+
+.location{
+    display: flex;
+    margin-top: 10px;
+}
+
+.aboutText{
+    color: black;
+    margin-top: 10px;
+}
+
+img.user{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+img.map{
+    width: 15px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+img.gear{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.education{
+    margin-top: 20px;
+    background-color: rgba(255,255,255,255);
+    border: 3px solid rgba(204,204,204,255);
+    width: 99.5%;
+    height: 30%;
+
+}
+.topstripe{
+    background-color: rgb(51,51,51);
+    height: 30px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.container2{
+    margin: 10px 20px;
+}
+
+p.date{
+    color: rgb(87, 85, 85);
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+p {
+    margin-top: 5px;
+}
+
+.column2{
+    height: auto;
+    width: 30%;
+    margin-left: 20px;
+}
+
+.connectionreq{
+    background-color: rgba(255,255,255,255);
+    border: 3px solid rgba(204,204,204,255);
+    width: 100%;
+    height: auto;
+
+}
+.connexstripe {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(51,51,51);
+    height: 50px;
+    color: white;
+    padding-left: 10px;
+}
+
+.numberCircle {
+    width: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    background-color:rgb(204,204,204) ;
+    margin-right: 10px;
+}
+
+
+.todd {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.todd img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+#todd {
+margin-left: 30px;
+}
+
+.phil {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.phil img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+#phil {
+    margin-left: 40px;
+    }
+
+
+.yourconnex{
+    background-color: rgba(255,255,255,255);
+    border: 3px solid rgba(204,204,204,255);
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.numberCircle2 {
+    width: 30px;
+    line-height: 22px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    background-color:rgb(204,204,204) ;
+    margin-right: 10px;
+}
+
+.yourconnex{
+    background-color: rgba(255,255,255,255);
+    border: 3px solid rgba(204,204,204,255);
+    width: 100%;
+    height: auto;
+
+}
+
+span {
+display: flex;
+margin-left: 5px;
+margin-top: 10px;
+padding: 5px;
+}
+
+#pics {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.view{
+    border-top: 3px solid rgba(204,204,204,255);
+    padding: 10px;
+}
